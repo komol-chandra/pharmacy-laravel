@@ -172,7 +172,7 @@ class MedicineController extends Controller
        if(\File::exists(public_path($medicine->med_image))){
         \File::delete(public_path($medicine->med_image));
       }else{
-        dd('File does not exists.');
+        
       }
        $delete = $medicine->delete();
        if($delete){

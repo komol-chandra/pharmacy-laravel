@@ -47,7 +47,7 @@ class PasswordController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
@@ -81,7 +81,7 @@ class PasswordController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        
     }
 
     /**

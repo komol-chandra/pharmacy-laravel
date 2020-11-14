@@ -21,13 +21,6 @@
 <script src="{{asset('Backend_assets/assets/js/perfect-scrollbar/perfect-scrollbar.min.js')}}"></script>
 
 
-
-<script src="{{asset('Backend_assets/assets/js/app.js')}}"></script>
-<script>
-    $(document).ready(function() {
-        App.init();
-    });
-</script>
 <!-- Theme JS -->
 
 <!-- JS Validation -->

@@ -21,7 +21,9 @@
 
 
 <!-- Theme Css -->
+{{-- Prifile --}}
 
+{{-- Prifile --}}
 <!-- Preloader -->
 <link href="{{asset('Backend_assets/assets/css/loader.css')}}" rel="stylesheet" type="text/css" />
 <script src="{{asset('Backend_assets/assets/js/loader.js')}}"></script>
@@ -54,3 +56,4 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+@yield('css')
