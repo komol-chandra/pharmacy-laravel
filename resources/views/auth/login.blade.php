@@ -25,7 +25,8 @@
                 <div class="form-container">
                     <div class="form-content">
                         <h1 class="">Log In to Parmacy</h1>
-
+                        <p>Email: <span>info@info.com</span></p>
+                        <p>pass: <span>info@info.com</span></p>
                         @if (session('status'))
                         <div class="mb-4 font-medium text-sm text-green-600">
                             {{ session('status') }}
@@ -80,8 +81,8 @@
                                             <span class="slider round"></span>
                                         </label>
                                     </div> --}}
-                                    <p class="signup-link">New Here? <a href="{{ route('register') }}">Create an
-                                            account</a></p>
+                                    {{-- <p class="signup-link">New Here? <a href="{{ route('register') }}">Create an
+                                            account</a></p> --}}
                                     <div class="field-wrapper">
                                         <button type="submit" class="btn btn-primary" value="">Log In</button>
                                     </div>
